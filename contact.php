@@ -9,8 +9,9 @@ if(empty($name) ||  empty($email) || empty($message))
 
 }else
 {
-    mail("anuragmoto9788@gmail.com","Bhikari",$message,"From: $name<$email>");
+    mail("anuragmoto9788@gmail.com","Email Form",$message,"From: $name <$email>");
     echo "<script type='text/javascript'>alert('your message sent successfully');
-    window.history.log(-1);
+    window.history.go(-1);
     </script>";
 }
+?>
